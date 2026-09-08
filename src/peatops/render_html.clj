@@ -1,7 +1,7 @@
 (ns peatops.render-html
   "Build-time HTML renderer. Drives the REAL actor stack deterministically.
    Usage: clojure -M:dev:render-html [out-file]."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [peatops.store :as store]
             [peatops.operation :as op]
             [langgraph.graph :as g]))
