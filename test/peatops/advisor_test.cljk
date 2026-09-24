@@ -1,5 +1,5 @@
 (ns peatops.advisor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [peatops.advisor :as advisor]
             [peatops.store :as store]))
 
